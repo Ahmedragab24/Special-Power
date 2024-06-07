@@ -242,6 +242,16 @@ input {
 }
 
 @media screen and (max-width: 767px) {
+  .nav {
+    height: 4rem;
+  }
+
+
+  .nav__logo-img {
+    width: 70px !important;
+    height: 40px !important;
+  }
+
   .nav__menu {
     position: fixed;
     background-color: var(--body-color);
